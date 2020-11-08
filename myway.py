@@ -23,7 +23,6 @@ def rank_stastic(name,sigma=0.3):
     result_set={}
     scores=[]
     for column in dt.drop('date',axis=1).columns:
-        
         ranks=dt[column].values
         ranks=np.sort(ranks)
         nb_ranks=ranks[:int(len(ranks)*sigma)]        
@@ -74,7 +73,7 @@ def run1():
         df.to_excel(newpath)
 def main():
     name_list=['上证指数.xlsx', '中小板指.xlsx', '创业板指.xlsx', '区块链.xlsx', '医药制造.xlsx', '工业互联网.xlsx', '数字货币.xlsx', '深证成指.xlsx', '白酒.xlsx', '芯片.xlsx', '蚂蚁金服.xlsx']
-
+    
     # name_list=['白酒.xlsx']
     for name in name_list:
         res=rank_stastic(name)
