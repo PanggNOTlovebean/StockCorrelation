@@ -7,13 +7,14 @@ import pandas as pd
 import numpy as np
 import datetime
 import matplotlib.pyplot as plt
+from pyecharts.options.global_options import InitOpts
 import seaborn as sns
 from matplotlib.font_manager import FontProperties
 import json
 import baostock as bs
 from sklearn.neighbors import KernelDensity
 from sklearn.cluster import KMeans
-
+from pyecharts.charts import WordCloud
 def numlist2ranklist(nums):
     args=np.argsort(1-np.array(nums,dtype=np.float32))
 
@@ -63,6 +64,24 @@ def main2():
     # print(y_pred)
     # plt.scatter(z[:,0],z[:,1],c=y_pred,marker='+')
     # plt.show()
+def word_cloud():
+    name_list=['白酒','区块链', '医药制造', '工业互联网', '数字货币',  '芯片', '蚂蚁金服','上证指数','中小板指','创业板指','深证成指']
+    # name_list=['白酒']
+    for name in name_list:
+        path=os.path.join('corr_20_all_result',name+'.xlsx')
+        df=pd.read_excel(path).dropna()
+        word=[name for name in df['name']]
+        value=np.exp([int(val*10) for val in df['corr_avg']])
+        word_pair=[]
+        for i in range(len(word)):
+            word_pair.append((word[i],value[i],))
+        print(word)
+        print(value)
+        wordCloud = WordCloud(init_opts=InitOpts(width='1400px',height='400px'))
+        wordCloud.add(data_pair=word_pair,series_name=name,word_size_range=[10,40],rotate_step=90,width=2000,height=1100,is_draw_out_of_bound=True)
+        wordCloud.render(name+'.html')
+        # break
 if __name__ == '__main__':
     # main2()
-    main()
+    # main()
+    word_cloud()
