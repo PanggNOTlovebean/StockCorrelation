@@ -212,6 +212,21 @@ def merge_csv():
         print(result)
         path3=os.path.join('my_way',name+'.csv')
         result.to_csv(path3)
+
+def run2():
+    name_list=['白酒','区块链', '医药制造', '工业互联网', '数字货币',  '芯片', '蚂蚁金服','上证指数','中小板指','创业板指','深证成指']
+    for name in name_list:
+        path1=os.path.join('my_way',name+'.csv')
+        df1=pd.read_csv(path1,engine='python',encoding='utf-8')
+        df2=df1[(df1['prob_flag']) & (df1['rank']<50)].get(['name','score','prob'])
+        score_value=df2['score'].values
+        print(score_value)
+        min=np.min(score_value)
+        max=np.max(score_value)
+        new_score=(score_value-min)/(max-min)
+        df2['new_score']=new_score
+        df2['sum']=0.3*df2['prob']+0.7*df2['new_score']
+        print(df2)
 if __name__ == '__main__':
     # main2()
 
@@ -219,4 +234,5 @@ if __name__ == '__main__':
     # relative_20()
     # paint()
     # density()
-    # merge_csv()
+    merge_csv()
+    # run2()

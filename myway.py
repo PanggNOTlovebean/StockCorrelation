@@ -16,7 +16,7 @@ def rank2score(max_num=100000,beta=0.98):
         score[i]=beta*score[i-1]+(1-beta)*score[i]
     return score
 
-def rank_stastic(name,sigma=0.3):
+def rank_stastic(name,sigma=0.7):
     path=os.path.join('corr_20_rank',name)
     dt=pd.read_excel(path)
     max_rank=len(dt.columns)-1
