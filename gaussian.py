@@ -232,7 +232,7 @@ if __name__ == '__main__':
 
     # main()
     # relative_20()
-    # paint()
+    paint()
     # density()
-    merge_csv()
+    # merge_csv()
     # run2()

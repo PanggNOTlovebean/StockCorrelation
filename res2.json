@@ -1,780 +1,1179 @@
 {
     "白酒": [
         {
-            "name": "贵州茅台",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "酒鬼酒",
+            "value": 0.5307,
+            "type": "总体得分",
             "industry": "白酒",
             "rank": "1"
-        },
-        {
-            "name": "贵州茅台",
-            "value": 0.5551,
-            "type": "状态分",
-            "industry": "白酒",
-            "rank": "1"
-        },
-        {
-            "name": "五粮液",
-            "value": 0.9778,
-            "type": "排名分",
-            "industry": "白酒",
-            "rank": "2"
-        },
-        {
-            "name": "五粮液",
-            "value": 0.4381,
-            "type": "状态分",
-            "industry": "白酒",
-            "rank": "2"
-        },
-        {
-            "name": "山西汾酒",
-            "value": 0.886,
-            "type": "排名分",
-            "industry": "白酒",
-            "rank": "4"
-        },
-        {
-            "name": "山西汾酒",
-            "value": 0.7384,
-            "type": "状态分",
-            "industry": "白酒",
-            "rank": "4"
-        },
-        {
-            "name": "洋河股份",
-            "value": 0.8089,
-            "type": "排名分",
-            "industry": "白酒",
-            "rank": "5"
-        },
-        {
-            "name": "洋河股份",
-            "value": 0.4524,
-            "type": "状态分",
-            "industry": "白酒",
-            "rank": "5"
         },
         {
             "name": "酒鬼酒",
-            "value": 0.8036,
-            "type": "排名分",
+            "value": 0.6013,
+            "type": "相关系数",
             "industry": "白酒",
-            "rank": "6"
+            "rank": "1"
         },
         {
             "name": "酒鬼酒",
             "value": 0.4624,
-            "type": "状态分",
+            "type": "相对涨幅",
             "industry": "白酒",
-            "rank": "6"
+            "rank": "1"
+        },
+        {
+            "name": "青海春天",
+            "value": 0.5233,
+            "type": "总体得分",
+            "industry": "白酒",
+            "rank": "2"
+        },
+        {
+            "name": "青海春天",
+            "value": 0.3234,
+            "type": "相关系数",
+            "industry": "白酒",
+            "rank": "2"
+        },
+        {
+            "name": "青海春天",
+            "value": 0.9891,
+            "type": "相对涨幅",
+            "industry": "白酒",
+            "rank": "2"
+        },
+        {
+            "name": "山西汾酒",
+            "value": 0.475,
+            "type": "总体得分",
+            "industry": "白酒",
+            "rank": "3"
+        },
+        {
+            "name": "山西汾酒",
+            "value": 0.3239,
+            "type": "相关系数",
+            "industry": "白酒",
+            "rank": "3"
+        },
+        {
+            "name": "山西汾酒",
+            "value": 0.7384,
+            "type": "相对涨幅",
+            "industry": "白酒",
+            "rank": "3"
+        },
+        {
+            "name": "青青稞酒",
+            "value": 0.4706,
+            "type": "总体得分",
+            "industry": "白酒",
+            "rank": "4"
+        },
+        {
+            "name": "青青稞酒",
+            "value": 0.3571,
+            "type": "相关系数",
+            "industry": "白酒",
+            "rank": "4"
+        },
+        {
+            "name": "青青稞酒",
+            "value": 0.6555,
+            "type": "相对涨幅",
+            "industry": "白酒",
+            "rank": "4"
+        },
+        {
+            "name": "口子窖",
+            "value": 0.4648,
+            "type": "总体得分",
+            "industry": "白酒",
+            "rank": "5"
+        },
+        {
+            "name": "口子窖",
+            "value": 0.573,
+            "type": "相关系数",
+            "industry": "白酒",
+            "rank": "5"
+        },
+        {
+            "name": "口子窖",
+            "value": 0.4014,
+            "type": "相对涨幅",
+            "industry": "白酒",
+            "rank": "5"
         }
     ],
     "区块链": [
         {
-            "name": "金证股份",
-            "value": 0.9809,
-            "type": "排名分",
+            "name": "福光股份",
+            "value": 0.7437,
+            "type": "总体得分",
             "industry": "区块链",
-            "rank": "6"
+            "rank": "1"
         },
         {
-            "name": "金证股份",
-            "value": 0.5216,
-            "type": "状态分",
+            "name": "福光股份",
+            "value": 0.5779,
+            "type": "相关系数",
             "industry": "区块链",
-            "rank": "6"
+            "rank": "1"
         },
         {
-            "name": "任子行",
-            "value": 0.98,
-            "type": "排名分",
+            "name": "福光股份",
+            "value": 0.8266,
+            "type": "相对涨幅",
             "industry": "区块链",
-            "rank": "7"
+            "rank": "1"
         },
         {
-            "name": "任子行",
-            "value": 0.7442,
-            "type": "状态分",
+            "name": "环球印务",
+            "value": 0.7308,
+            "type": "总体得分",
             "industry": "区块链",
-            "rank": "7"
+            "rank": "2"
         },
         {
-            "name": "苏宁易购",
-            "value": 0.973,
-            "type": "排名分",
+            "name": "环球印务",
+            "value": 0.6226,
+            "type": "相关系数",
             "industry": "区块链",
-            "rank": "8"
+            "rank": "2"
         },
         {
-            "name": "苏宁易购",
-            "value": 0.586,
-            "type": "状态分",
+            "name": "环球印务",
+            "value": 0.7212,
+            "type": "相对涨幅",
             "industry": "区块链",
-            "rank": "8"
+            "rank": "2"
         },
         {
-            "name": "汉得信息",
-            "value": 0.9717,
-            "type": "排名分",
+            "name": "海峡创新",
+            "value": 0.7272,
+            "type": "总体得分",
             "industry": "区块链",
-            "rank": "9"
+            "rank": "3"
         },
         {
-            "name": "汉得信息",
-            "value": 0.454,
-            "type": "状态分",
+            "name": "海峡创新",
+            "value": 0.5423,
+            "type": "相关系数",
             "industry": "区块链",
-            "rank": "9"
+            "rank": "3"
         },
         {
-            "name": "榕基软件",
-            "value": 0.9643,
-            "type": "排名分",
+            "name": "海峡创新",
+            "value": 0.8813,
+            "type": "相对涨幅",
             "industry": "区块链",
-            "rank": "11"
+            "rank": "3"
         },
         {
-            "name": "榕基软件",
-            "value": 0.5889,
-            "type": "状态分",
+            "name": "爱康科技",
+            "value": 0.7261,
+            "type": "总体得分",
             "industry": "区块链",
-            "rank": "11"
+            "rank": "4"
+        },
+        {
+            "name": "爱康科技",
+            "value": 0.5705,
+            "type": "相关系数",
+            "industry": "区块链",
+            "rank": "4"
+        },
+        {
+            "name": "爱康科技",
+            "value": 0.7997,
+            "type": "相对涨幅",
+            "industry": "区块链",
+            "rank": "4"
+        },
+        {
+            "name": "交控科技",
+            "value": 0.7252,
+            "type": "总体得分",
+            "industry": "区块链",
+            "rank": "5"
+        },
+        {
+            "name": "交控科技",
+            "value": 0.7511,
+            "type": "相关系数",
+            "industry": "区块链",
+            "rank": "5"
+        },
+        {
+            "name": "交控科技",
+            "value": 0.5956,
+            "type": "相对涨幅",
+            "industry": "区块链",
+            "rank": "5"
         }
     ],
     "医药制造": [
         {
-            "name": "智飞生物",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "中国医药",
+            "value": 0.9329,
+            "type": "总体得分",
             "industry": "医药制造",
             "rank": "1"
         },
         {
-            "name": "智飞生物",
-            "value": 0.833,
-            "type": "状态分",
+            "name": "中国医药",
+            "value": 0.8772,
+            "type": "相关系数",
             "industry": "医药制造",
             "rank": "1"
         },
         {
-            "name": "辰欣药业",
-            "value": 0.9743,
-            "type": "排名分",
+            "name": "中国医药",
+            "value": 0.7628,
+            "type": "相对涨幅",
+            "industry": "医药制造",
+            "rank": "1"
+        },
+        {
+            "name": "安图生物",
+            "value": 0.8004,
+            "type": "总体得分",
+            "industry": "医药制造",
+            "rank": "2"
+        },
+        {
+            "name": "安图生物",
+            "value": 0.6349,
+            "type": "相关系数",
+            "industry": "医药制造",
+            "rank": "2"
+        },
+        {
+            "name": "安图生物",
+            "value": 0.8376,
+            "type": "相对涨幅",
+            "industry": "医药制造",
+            "rank": "2"
+        },
+        {
+            "name": "赛升药业",
+            "value": 0.7884,
+            "type": "总体得分",
+            "industry": "医药制造",
+            "rank": "3"
+        },
+        {
+            "name": "赛升药业",
+            "value": 0.6175,
+            "type": "相关系数",
+            "industry": "医药制造",
+            "rank": "3"
+        },
+        {
+            "name": "赛升药业",
+            "value": 0.8479,
+            "type": "相对涨幅",
+            "industry": "医药制造",
+            "rank": "3"
+        },
+        {
+            "name": "灵康药业",
+            "value": 0.7867,
+            "type": "总体得分",
             "industry": "医药制造",
             "rank": "4"
         },
         {
-            "name": "辰欣药业",
-            "value": 0.7159,
-            "type": "状态分",
+            "name": "灵康药业",
+            "value": 0.7065,
+            "type": "相关系数",
             "industry": "医药制造",
             "rank": "4"
         },
         {
-            "name": "天坛生物",
-            "value": 0.9488,
-            "type": "排名分",
+            "name": "灵康药业",
+            "value": 0.7091,
+            "type": "相对涨幅",
             "industry": "医药制造",
-            "rank": "7"
+            "rank": "4"
         },
         {
-            "name": "天坛生物",
-            "value": 0.4843,
-            "type": "状态分",
+            "name": "威尔药业",
+            "value": 0.7796,
+            "type": "总体得分",
             "industry": "医药制造",
-            "rank": "7"
+            "rank": "5"
         },
         {
-            "name": "安科生物",
-            "value": 0.9412,
-            "type": "排名分",
+            "name": "威尔药业",
+            "value": 0.7417,
+            "type": "相关系数",
             "industry": "医药制造",
-            "rank": "8"
+            "rank": "5"
         },
         {
-            "name": "安科生物",
-            "value": 0.6145,
-            "type": "状态分",
+            "name": "威尔药业",
+            "value": 0.6683,
+            "type": "相对涨幅",
             "industry": "医药制造",
-            "rank": "8"
-        },
-        {
-            "name": "羚锐制药",
-            "value": 0.9256,
-            "type": "排名分",
-            "industry": "医药制造",
-            "rank": "11"
-        },
-        {
-            "name": "羚锐制药",
-            "value": 0.632,
-            "type": "状态分",
-            "industry": "医药制造",
-            "rank": "11"
+            "rank": "5"
         }
     ],
     "工业互联网": [
         {
-            "name": "任子行",
-            "value": 0.9809,
-            "type": "排名分",
+            "name": "福光股份",
+            "value": 0.7541,
+            "type": "总体得分",
             "industry": "工业互联网",
-            "rank": "6"
+            "rank": "1"
         },
         {
-            "name": "任子行",
-            "value": 0.7442,
-            "type": "状态分",
+            "name": "福光股份",
+            "value": 0.5891,
+            "type": "相关系数",
             "industry": "工业互联网",
-            "rank": "6"
+            "rank": "1"
         },
         {
-            "name": "金证股份",
-            "value": 0.9785,
-            "type": "排名分",
+            "name": "福光股份",
+            "value": 0.8267,
+            "type": "相对涨幅",
             "industry": "工业互联网",
-            "rank": "7"
+            "rank": "1"
         },
         {
-            "name": "金证股份",
-            "value": 0.5214,
-            "type": "状态分",
+            "name": "海峡创新",
+            "value": 0.7428,
+            "type": "总体得分",
             "industry": "工业互联网",
-            "rank": "7"
+            "rank": "2"
         },
         {
-            "name": "汉得信息",
-            "value": 0.9718,
-            "type": "排名分",
+            "name": "海峡创新",
+            "value": 0.5585,
+            "type": "相关系数",
             "industry": "工业互联网",
-            "rank": "9"
+            "rank": "2"
         },
         {
-            "name": "汉得信息",
-            "value": 0.4537,
-            "type": "状态分",
+            "name": "海峡创新",
+            "value": 0.8813,
+            "type": "相对涨幅",
             "industry": "工业互联网",
-            "rank": "9"
+            "rank": "2"
         },
         {
-            "name": "榕基软件",
-            "value": 0.9658,
-            "type": "排名分",
+            "name": "爱康科技",
+            "value": 0.7409,
+            "type": "总体得分",
             "industry": "工业互联网",
-            "rank": "10"
+            "rank": "3"
         },
         {
-            "name": "榕基软件",
-            "value": 0.5887,
-            "type": "状态分",
+            "name": "爱康科技",
+            "value": 0.5869,
+            "type": "相关系数",
             "industry": "工业互联网",
-            "rank": "10"
+            "rank": "3"
         },
         {
-            "name": "苏宁易购",
-            "value": 0.965,
-            "type": "排名分",
+            "name": "爱康科技",
+            "value": 0.7997,
+            "type": "相对涨幅",
             "industry": "工业互联网",
-            "rank": "11"
+            "rank": "3"
         },
         {
-            "name": "苏宁易购",
-            "value": 0.5857,
-            "type": "状态分",
+            "name": "交控科技",
+            "value": 0.7292,
+            "type": "总体得分",
             "industry": "工业互联网",
-            "rank": "11"
+            "rank": "4"
+        },
+        {
+            "name": "交控科技",
+            "value": 0.7588,
+            "type": "相关系数",
+            "industry": "工业互联网",
+            "rank": "4"
+        },
+        {
+            "name": "交控科技",
+            "value": 0.5957,
+            "type": "相对涨幅",
+            "industry": "工业互联网",
+            "rank": "4"
+        },
+        {
+            "name": "环球印务",
+            "value": 0.7279,
+            "type": "总体得分",
+            "industry": "工业互联网",
+            "rank": "5"
+        },
+        {
+            "name": "环球印务",
+            "value": 0.619,
+            "type": "相关系数",
+            "industry": "工业互联网",
+            "rank": "5"
+        },
+        {
+            "name": "环球印务",
+            "value": 0.7212,
+            "type": "相对涨幅",
+            "industry": "工业互联网",
+            "rank": "5"
         }
     ],
     "数字货币": [
         {
-            "name": "智度股份",
-            "value": 0.9679,
-            "type": "排名分",
+            "name": "海峡创新",
+            "value": 0.8252,
+            "type": "总体得分",
+            "industry": "数字货币",
+            "rank": "1"
+        },
+        {
+            "name": "海峡创新",
+            "value": 0.6385,
+            "type": "相关系数",
+            "industry": "数字货币",
+            "rank": "1"
+        },
+        {
+            "name": "海峡创新",
+            "value": 0.901,
+            "type": "相对涨幅",
+            "industry": "数字货币",
+            "rank": "1"
+        },
+        {
+            "name": "金冠股份",
+            "value": 0.7902,
+            "type": "总体得分",
             "industry": "数字货币",
             "rank": "2"
         },
         {
-            "name": "智度股份",
-            "value": 0.6669,
-            "type": "状态分",
+            "name": "金冠股份",
+            "value": 0.6037,
+            "type": "相关系数",
             "industry": "数字货币",
             "rank": "2"
         },
         {
-            "name": "二三四五",
-            "value": 0.9287,
-            "type": "排名分",
+            "name": "金冠股份",
+            "value": 0.8955,
+            "type": "相对涨幅",
+            "industry": "数字货币",
+            "rank": "2"
+        },
+        {
+            "name": "*ST联络",
+            "value": 0.763,
+            "type": "总体得分",
+            "industry": "数字货币",
+            "rank": "3"
+        },
+        {
+            "name": "*ST联络",
+            "value": 0.587,
+            "type": "相关系数",
+            "industry": "数字货币",
+            "rank": "3"
+        },
+        {
+            "name": "*ST联络",
+            "value": 0.8574,
+            "type": "相对涨幅",
+            "industry": "数字货币",
+            "rank": "3"
+        },
+        {
+            "name": "信息发展",
+            "value": 0.6688,
+            "type": "总体得分",
             "industry": "数字货币",
             "rank": "4"
         },
         {
-            "name": "二三四五",
-            "value": 0.8922,
-            "type": "状态分",
+            "name": "信息发展",
+            "value": 0.5678,
+            "type": "相关系数",
             "industry": "数字货币",
             "rank": "4"
         },
         {
-            "name": "赢时胜",
-            "value": 0.9207,
-            "type": "排名分",
+            "name": "信息发展",
+            "value": 0.6912,
+            "type": "相对涨幅",
             "industry": "数字货币",
-            "rank": "6"
+            "rank": "4"
         },
         {
-            "name": "赢时胜",
-            "value": 0.7152,
-            "type": "状态分",
+            "name": "梦网集团",
+            "value": 0.6536,
+            "type": "总体得分",
             "industry": "数字货币",
-            "rank": "6"
+            "rank": "5"
         },
         {
-            "name": "飞利信",
-            "value": 0.8353,
-            "type": "排名分",
+            "name": "梦网集团",
+            "value": 0.66,
+            "type": "相关系数",
             "industry": "数字货币",
-            "rank": "10"
+            "rank": "5"
         },
         {
-            "name": "飞利信",
-            "value": 0.7479,
-            "type": "状态分",
+            "name": "梦网集团",
+            "value": 0.5723,
+            "type": "相对涨幅",
             "industry": "数字货币",
-            "rank": "10"
-        },
-        {
-            "name": "数知科技",
-            "value": 0.755,
-            "type": "排名分",
-            "industry": "数字货币",
-            "rank": "14"
-        },
-        {
-            "name": "数知科技",
-            "value": 0.5173,
-            "type": "状态分",
-            "industry": "数字货币",
-            "rank": "14"
+            "rank": "5"
         }
     ],
     "芯片": [
         {
-            "name": "三安光电",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "怡达股份",
+            "value": 0.8039,
+            "type": "总体得分",
             "industry": "芯片",
             "rank": "1"
         },
         {
-            "name": "三安光电",
-            "value": 0.5059,
-            "type": "状态分",
+            "name": "怡达股份",
+            "value": 0.6513,
+            "type": "相关系数",
             "industry": "芯片",
             "rank": "1"
         },
         {
-            "name": "长电科技",
-            "value": 0.9948,
-            "type": "排名分",
+            "name": "怡达股份",
+            "value": 0.8122,
+            "type": "相对涨幅",
+            "industry": "芯片",
+            "rank": "1"
+        },
+        {
+            "name": "明阳智能",
+            "value": 0.7854,
+            "type": "总体得分",
             "industry": "芯片",
             "rank": "2"
         },
         {
-            "name": "长电科技",
-            "value": 0.5506,
-            "type": "状态分",
+            "name": "明阳智能",
+            "value": 0.592,
+            "type": "相关系数",
             "industry": "芯片",
             "rank": "2"
         },
         {
-            "name": "士兰微",
-            "value": 0.9831,
-            "type": "排名分",
+            "name": "明阳智能",
+            "value": 0.9261,
+            "type": "相对涨幅",
+            "industry": "芯片",
+            "rank": "2"
+        },
+        {
+            "name": "金信诺",
+            "value": 0.7747,
+            "type": "总体得分",
+            "industry": "芯片",
+            "rank": "3"
+        },
+        {
+            "name": "金信诺",
+            "value": 0.6187,
+            "type": "相关系数",
+            "industry": "芯片",
+            "rank": "3"
+        },
+        {
+            "name": "金信诺",
+            "value": 0.8116,
+            "type": "相对涨幅",
+            "industry": "芯片",
+            "rank": "3"
+        },
+        {
+            "name": "*ST华讯",
+            "value": 0.7576,
+            "type": "总体得分",
             "industry": "芯片",
             "rank": "4"
         },
         {
-            "name": "士兰微",
-            "value": 0.761,
-            "type": "状态分",
+            "name": "*ST华讯",
+            "value": 0.6689,
+            "type": "相关系数",
             "industry": "芯片",
             "rank": "4"
         },
         {
-            "name": "澜起科技",
-            "value": 0.9726,
-            "type": "排名分",
+            "name": "*ST华讯",
+            "value": 0.7066,
+            "type": "相对涨幅",
+            "industry": "芯片",
+            "rank": "4"
+        },
+        {
+            "name": "睿创微纳",
+            "value": 0.7547,
+            "type": "总体得分",
             "industry": "芯片",
             "rank": "5"
         },
         {
-            "name": "澜起科技",
-            "value": 0.6885,
-            "type": "状态分",
+            "name": "睿创微纳",
+            "value": 0.6914,
+            "type": "相关系数",
             "industry": "芯片",
             "rank": "5"
         },
         {
-            "name": "晶晨股份",
-            "value": 0.9703,
-            "type": "排名分",
+            "name": "睿创微纳",
+            "value": 0.679,
+            "type": "相对涨幅",
             "industry": "芯片",
-            "rank": "6"
-        },
-        {
-            "name": "晶晨股份",
-            "value": 0.7785,
-            "type": "状态分",
-            "industry": "芯片",
-            "rank": "6"
+            "rank": "5"
         }
     ],
     "蚂蚁金服": [
         {
-            "name": "中国人寿",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "国金证券",
+            "value": 0.5476,
+            "type": "总体得分",
             "industry": "蚂蚁金服",
             "rank": "1"
-        },
-        {
-            "name": "中国人寿",
-            "value": 0.7081,
-            "type": "状态分",
-            "industry": "蚂蚁金服",
-            "rank": "1"
-        },
-        {
-            "name": "中国太保",
-            "value": 0.9689,
-            "type": "排名分",
-            "industry": "蚂蚁金服",
-            "rank": "2"
-        },
-        {
-            "name": "中国太保",
-            "value": 0.9703,
-            "type": "状态分",
-            "industry": "蚂蚁金服",
-            "rank": "2"
         },
         {
             "name": "国金证券",
-            "value": 0.8798,
-            "type": "排名分",
+            "value": 0.6271,
+            "type": "相关系数",
             "industry": "蚂蚁金服",
-            "rank": "5"
+            "rank": "1"
         },
         {
             "name": "国金证券",
             "value": 0.4647,
-            "type": "状态分",
+            "type": "相对涨幅",
             "industry": "蚂蚁金服",
-            "rank": "5"
+            "rank": "1"
+        },
+        {
+            "name": "新华保险",
+            "value": 0.5257,
+            "type": "总体得分",
+            "industry": "蚂蚁金服",
+            "rank": "2"
+        },
+        {
+            "name": "新华保险",
+            "value": 0.326,
+            "type": "相关系数",
+            "industry": "蚂蚁金服",
+            "rank": "2"
+        },
+        {
+            "name": "新华保险",
+            "value": 0.9805,
+            "type": "相对涨幅",
+            "industry": "蚂蚁金服",
+            "rank": "2"
         },
         {
             "name": "财通证券",
-            "value": 0.7694,
-            "type": "排名分",
+            "value": 0.4579,
+            "type": "总体得分",
             "industry": "蚂蚁金服",
-            "rank": "11"
+            "rank": "3"
+        },
+        {
+            "name": "财通证券",
+            "value": 0.5122,
+            "type": "相关系数",
+            "industry": "蚂蚁金服",
+            "rank": "3"
         },
         {
             "name": "财通证券",
             "value": 0.4407,
-            "type": "状态分",
+            "type": "相对涨幅",
             "industry": "蚂蚁金服",
-            "rank": "11"
+            "rank": "3"
+        },
+        {
+            "name": "汇鸿集团",
+            "value": 0.4468,
+            "type": "总体得分",
+            "industry": "蚂蚁金服",
+            "rank": "4"
+        },
+        {
+            "name": "汇鸿集团",
+            "value": 0.4407,
+            "type": "相关系数",
+            "industry": "蚂蚁金服",
+            "rank": "4"
+        },
+        {
+            "name": "汇鸿集团",
+            "value": 0.4956,
+            "type": "相对涨幅",
+            "industry": "蚂蚁金服",
+            "rank": "4"
+        },
+        {
+            "name": "中国人寿",
+            "value": 0.403,
+            "type": "总体得分",
+            "industry": "蚂蚁金服",
+            "rank": "5"
+        },
+        {
+            "name": "中国人寿",
+            "value": 0.2584,
+            "type": "相关系数",
+            "industry": "蚂蚁金服",
+            "rank": "5"
+        },
+        {
+            "name": "中国人寿",
+            "value": 0.7081,
+            "type": "相对涨幅",
+            "industry": "蚂蚁金服",
+            "rank": "5"
         }
     ],
     "上证指数": [
         {
-            "name": "华泰证券",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "中国交建",
+            "value": 0.9463,
+            "type": "总体得分",
             "industry": "上证指数",
             "rank": "1"
         },
         {
-            "name": "华泰证券",
-            "value": 0.5577,
-            "type": "状态分",
+            "name": "中国交建",
+            "value": 0.8184,
+            "type": "相关系数",
             "industry": "上证指数",
             "rank": "1"
         },
         {
-            "name": "东吴证券",
-            "value": 0.9916,
-            "type": "排名分",
+            "name": "中国交建",
+            "value": 0.8229,
+            "type": "相对涨幅",
+            "industry": "上证指数",
+            "rank": "1"
+        },
+        {
+            "name": "长园集团",
+            "value": 0.9237,
+            "type": "总体得分",
             "industry": "上证指数",
             "rank": "2"
         },
         {
-            "name": "东吴证券",
-            "value": 0.654,
-            "type": "状态分",
+            "name": "长园集团",
+            "value": 0.7669,
+            "type": "相关系数",
             "industry": "上证指数",
             "rank": "2"
         },
         {
-            "name": "苏农银行",
-            "value": 0.991,
-            "type": "排名分",
+            "name": "长园集团",
+            "value": 0.8517,
+            "type": "相对涨幅",
+            "industry": "上证指数",
+            "rank": "2"
+        },
+        {
+            "name": "美凯龙",
+            "value": 0.8796,
+            "type": "总体得分",
+            "industry": "上证指数",
+            "rank": "3"
+        },
+        {
+            "name": "美凯龙",
+            "value": 0.7909,
+            "type": "相关系数",
+            "industry": "上证指数",
+            "rank": "3"
+        },
+        {
+            "name": "美凯龙",
+            "value": 0.7572,
+            "type": "相对涨幅",
+            "industry": "上证指数",
+            "rank": "3"
+        },
+        {
+            "name": "中信银行",
+            "value": 0.8745,
+            "type": "总体得分",
             "industry": "上证指数",
             "rank": "4"
         },
         {
-            "name": "苏农银行",
-            "value": 0.7446,
-            "type": "状态分",
+            "name": "中信银行",
+            "value": 0.6754,
+            "type": "相关系数",
             "industry": "上证指数",
             "rank": "4"
         },
         {
-            "name": "赣粤高速",
-            "value": 0.9861,
-            "type": "排名分",
+            "name": "中信银行",
+            "value": 0.9766,
+            "type": "相对涨幅",
             "industry": "上证指数",
-            "rank": "7"
+            "rank": "4"
         },
         {
-            "name": "赣粤高速",
-            "value": 0.9253,
-            "type": "状态分",
+            "name": "中国中车",
+            "value": 0.8709,
+            "type": "总体得分",
             "industry": "上证指数",
-            "rank": "7"
+            "rank": "5"
         },
         {
-            "name": "贵阳银行",
-            "value": 0.9832,
-            "type": "排名分",
+            "name": "中国中车",
+            "value": 0.7362,
+            "type": "相关系数",
             "industry": "上证指数",
-            "rank": "8"
+            "rank": "5"
         },
         {
-            "name": "贵阳银行",
-            "value": 0.8601,
-            "type": "状态分",
+            "name": "中国中车",
+            "value": 0.8032,
+            "type": "相对涨幅",
             "industry": "上证指数",
-            "rank": "8"
+            "rank": "5"
         }
     ],
     "中小板指": [
         {
-            "name": "东山精密",
-            "value": 0.9905,
-            "type": "排名分",
+            "name": "分众传媒",
+            "value": 0.7984,
+            "type": "总体得分",
+            "industry": "中小板指",
+            "rank": "1"
+        },
+        {
+            "name": "分众传媒",
+            "value": 0.622,
+            "type": "相关系数",
+            "industry": "中小板指",
+            "rank": "1"
+        },
+        {
+            "name": "分众传媒",
+            "value": 0.8643,
+            "type": "相对涨幅",
+            "industry": "中小板指",
+            "rank": "1"
+        },
+        {
+            "name": "华兰生物",
+            "value": 0.7924,
+            "type": "总体得分",
             "industry": "中小板指",
             "rank": "2"
         },
         {
-            "name": "东山精密",
-            "value": 0.5057,
-            "type": "状态分",
+            "name": "华兰生物",
+            "value": 0.7458,
+            "type": "相关系数",
             "industry": "中小板指",
             "rank": "2"
         },
         {
-            "name": "国信证券",
-            "value": 0.9429,
-            "type": "排名分",
+            "name": "华兰生物",
+            "value": 0.6814,
+            "type": "相对涨幅",
+            "industry": "中小板指",
+            "rank": "2"
+        },
+        {
+            "name": "苏宁易购",
+            "value": 0.7918,
+            "type": "总体得分",
+            "industry": "中小板指",
+            "rank": "3"
+        },
+        {
+            "name": "苏宁易购",
+            "value": 0.7658,
+            "type": "相关系数",
+            "industry": "中小板指",
+            "rank": "3"
+        },
+        {
+            "name": "苏宁易购",
+            "value": 0.6656,
+            "type": "相对涨幅",
+            "industry": "中小板指",
+            "rank": "3"
+        },
+        {
+            "name": "恩捷股份",
+            "value": 0.6926,
+            "type": "总体得分",
             "industry": "中小板指",
             "rank": "4"
         },
         {
-            "name": "国信证券",
-            "value": 0.7185,
-            "type": "状态分",
+            "name": "恩捷股份",
+            "value": 0.5394,
+            "type": "相关系数",
             "industry": "中小板指",
             "rank": "4"
         },
         {
-            "name": "立讯精密",
-            "value": 0.9381,
-            "type": "排名分",
+            "name": "恩捷股份",
+            "value": 0.7873,
+            "type": "相对涨幅",
             "industry": "中小板指",
-            "rank": "6"
+            "rank": "4"
         },
         {
-            "name": "立讯精密",
-            "value": 0.5534,
-            "type": "状态分",
+            "name": "赣锋锂业",
+            "value": 0.6877,
+            "type": "总体得分",
             "industry": "中小板指",
-            "rank": "6"
+            "rank": "5"
         },
         {
-            "name": "山西证券",
-            "value": 0.9334,
-            "type": "排名分",
+            "name": "赣锋锂业",
+            "value": 0.5947,
+            "type": "相关系数",
             "industry": "中小板指",
-            "rank": "7"
+            "rank": "5"
         },
         {
-            "name": "山西证券",
-            "value": 0.7506,
-            "type": "状态分",
+            "name": "赣锋锂业",
+            "value": 0.6867,
+            "type": "相对涨幅",
             "industry": "中小板指",
-            "rank": "7"
-        },
-        {
-            "name": "领益智造",
-            "value": 0.9215,
-            "type": "排名分",
-            "industry": "中小板指",
-            "rank": "8"
-        },
-        {
-            "name": "领益智造",
-            "value": 0.5764,
-            "type": "状态分",
-            "industry": "中小板指",
-            "rank": "8"
+            "rank": "5"
         }
     ],
     "创业板指": [
         {
-            "name": "卫宁健康",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "三角防务",
+            "value": 0.8403,
+            "type": "总体得分",
             "industry": "创业板指",
             "rank": "1"
         },
         {
-            "name": "卫宁健康",
-            "value": 0.5099,
-            "type": "状态分",
+            "name": "三角防务",
+            "value": 0.6664,
+            "type": "相关系数",
             "industry": "创业板指",
             "rank": "1"
         },
         {
-            "name": "创业慧康",
-            "value": 0.9643,
-            "type": "排名分",
+            "name": "三角防务",
+            "value": 0.8654,
+            "type": "相对涨幅",
+            "industry": "创业板指",
+            "rank": "1"
+        },
+        {
+            "name": "迈克生物",
+            "value": 0.8384,
+            "type": "总体得分",
+            "industry": "创业板指",
+            "rank": "2"
+        },
+        {
+            "name": "迈克生物",
+            "value": 0.7509,
+            "type": "相关系数",
+            "industry": "创业板指",
+            "rank": "2"
+        },
+        {
+            "name": "迈克生物",
+            "value": 0.7379,
+            "type": "相对涨幅",
+            "industry": "创业板指",
+            "rank": "2"
+        },
+        {
+            "name": "金力永磁",
+            "value": 0.8065,
+            "type": "总体得分",
+            "industry": "创业板指",
+            "rank": "3"
+        },
+        {
+            "name": "金力永磁",
+            "value": 0.6777,
+            "type": "相关系数",
+            "industry": "创业板指",
+            "rank": "3"
+        },
+        {
+            "name": "金力永磁",
+            "value": 0.7741,
+            "type": "相对涨幅",
+            "industry": "创业板指",
+            "rank": "3"
+        },
+        {
+            "name": "迈瑞医疗",
+            "value": 0.7254,
+            "type": "总体得分",
             "industry": "创业板指",
             "rank": "4"
         },
         {
-            "name": "创业慧康",
-            "value": 0.5467,
-            "type": "状态分",
+            "name": "迈瑞医疗",
+            "value": 0.6124,
+            "type": "相关系数",
             "industry": "创业板指",
             "rank": "4"
         },
         {
-            "name": "顺网科技",
-            "value": 0.9403,
-            "type": "排名分",
+            "name": "迈瑞医疗",
+            "value": 0.7261,
+            "type": "相对涨幅",
+            "industry": "创业板指",
+            "rank": "4"
+        },
+        {
+            "name": "卓胜微",
+            "value": 0.721,
+            "type": "总体得分",
             "industry": "创业板指",
             "rank": "5"
         },
         {
-            "name": "顺网科技",
-            "value": 0.4127,
-            "type": "状态分",
+            "name": "卓胜微",
+            "value": 0.6624,
+            "type": "相关系数",
             "industry": "创业板指",
             "rank": "5"
         },
         {
-            "name": "中科创达",
-            "value": 0.922,
-            "type": "排名分",
+            "name": "卓胜微",
+            "value": 0.6602,
+            "type": "相对涨幅",
             "industry": "创业板指",
-            "rank": "7"
-        },
-        {
-            "name": "中科创达",
-            "value": 0.5896,
-            "type": "状态分",
-            "industry": "创业板指",
-            "rank": "7"
-        },
-        {
-            "name": "思创医惠",
-            "value": 0.8908,
-            "type": "排名分",
-            "industry": "创业板指",
-            "rank": "9"
-        },
-        {
-            "name": "思创医惠",
-            "value": 0.6178,
-            "type": "状态分",
-            "industry": "创业板指",
-            "rank": "9"
+            "rank": "5"
         }
     ],
     "深证成指": [
         {
-            "name": "广发证券",
-            "value": 1.0,
-            "type": "排名分",
+            "name": "迈克生物",
+            "value": 0.8706,
+            "type": "总体得分",
             "industry": "深证成指",
             "rank": "1"
         },
         {
-            "name": "广发证券",
-            "value": 0.8183,
-            "type": "状态分",
+            "name": "迈克生物",
+            "value": 0.8097,
+            "type": "相关系数",
             "industry": "深证成指",
             "rank": "1"
         },
         {
-            "name": "中山公用",
-            "value": 0.9873,
-            "type": "排名分",
+            "name": "迈克生物",
+            "value": 0.7311,
+            "type": "相对涨幅",
+            "industry": "深证成指",
+            "rank": "1"
+        },
+        {
+            "name": "招商港口",
+            "value": 0.8465,
+            "type": "总体得分",
             "industry": "深证成指",
             "rank": "2"
         },
         {
-            "name": "中山公用",
-            "value": 0.7703,
-            "type": "状态分",
+            "name": "招商港口",
+            "value": 0.6884,
+            "type": "相关系数",
             "industry": "深证成指",
             "rank": "2"
         },
         {
-            "name": "深圳华强",
-            "value": 0.9865,
-            "type": "排名分",
+            "name": "招商港口",
+            "value": 0.8329,
+            "type": "相对涨幅",
+            "industry": "深证成指",
+            "rank": "2"
+        },
+        {
+            "name": "华润三九",
+            "value": 0.8444,
+            "type": "总体得分",
+            "industry": "深证成指",
+            "rank": "3"
+        },
+        {
+            "name": "华润三九",
+            "value": 0.7854,
+            "type": "相关系数",
+            "industry": "深证成指",
+            "rank": "3"
+        },
+        {
+            "name": "华润三九",
+            "value": 0.7164,
+            "type": "相对涨幅",
+            "industry": "深证成指",
+            "rank": "3"
+        },
+        {
+            "name": "华孚时尚",
+            "value": 0.8249,
+            "type": "总体得分",
             "industry": "深证成指",
             "rank": "4"
         },
         {
-            "name": "深圳华强",
-            "value": 0.5138,
-            "type": "状态分",
+            "name": "华孚时尚",
+            "value": 0.6279,
+            "type": "相关系数",
             "industry": "深证成指",
             "rank": "4"
         },
         {
-            "name": "山西证券",
-            "value": 0.9828,
-            "type": "排名分",
+            "name": "华孚时尚",
+            "value": 0.9532,
+            "type": "相对涨幅",
             "industry": "深证成指",
-            "rank": "6"
+            "rank": "4"
         },
         {
-            "name": "山西证券",
-            "value": 0.8175,
-            "type": "状态分",
+            "name": "卫星石化",
+            "value": 0.8146,
+            "type": "总体得分",
             "industry": "深证成指",
-            "rank": "6"
+            "rank": "5"
         },
         {
-            "name": "大族激光",
-            "value": 0.9818,
-            "type": "排名分",
+            "name": "卫星石化",
+            "value": 0.6155,
+            "type": "相关系数",
             "industry": "深证成指",
-            "rank": "7"
+            "rank": "5"
         },
         {
-            "name": "大族激光",
-            "value": 0.4219,
-            "type": "状态分",
+            "name": "卫星石化",
+            "value": 0.9742,
+            "type": "相对涨幅",
             "industry": "深证成指",
-            "rank": "7"
+            "rank": "5"
         }
     ]
 }

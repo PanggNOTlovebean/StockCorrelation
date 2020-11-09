@@ -51,19 +51,18 @@ def main2():
     json_dict={}
     
     for name in name_list:
-        path=os.path.join('my_way',name+'.csv')
+        path=os.path.join('end',name+'.csv')
         df=pd.read_csv(path,engine='python',encoding='utf-8')
         json_list=[]
         sum=0
-        for rank in [1,2,4,5,6,7,8,9,10,11,12,13,14,15]:
+        for rank in [1,2,3,4,5]:
             for i in range(len(df)):
-                if(df.iloc[i]['rank']==rank and df.iloc[i]['prob_flag']==True):
-                    sum=sum+1
-                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['normal_score'],'.4f')),'type':'排名分','industry':name,'rank':str(df.iloc[i]['rank']),})
-                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['prob'],'.4f')),'type':'状态分','industry':name,'rank':str(df.iloc[i]['rank'])})
+                if(df.iloc[i]['rank']==rank):
+                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['score'],'.4f')),'type':'总体得分','industry':name,'rank':str(df.iloc[i]['rank'])})
+
+                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['corr_score'],'.4f')),'type':'相关系数','industry':name,'rank':str(df.iloc[i]['rank']),})
+                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['ret_score'],'.4f')),'type':'相对涨幅','industry':name,'rank':str(df.iloc[i]['rank'])})
             json_dict[name]=json_list
-            if(sum==5):
-                break
         print(json_dict)
             
     with open('./res2.json','w') as f:
