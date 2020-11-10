@@ -9,6 +9,8 @@ from matplotlib.font_manager import FontProperties
 import json
 import baostock as bs
 from sklearn.neighbors import KernelDensity
+import math
+from matplotlib.pyplot import MultipleLocator,tick_params
 def get_stock_data(code, start_date, end_date):
     # 登陆系统
     bs.login()
@@ -37,7 +39,7 @@ def main2():
     index_list=['上证指数','中小板指','创业板指','深证成指']
     code_list=['sh.000001','sz.399005','sz.399006','sz.399106']
     start_date='2019-09-01'
-    end_date='2020-10-01'
+    end_date='2020-11-01'
     
     for i in range(4):
         name=index_list[i]
@@ -61,7 +63,7 @@ def main2():
                 except:
                     continue
             result=result.set_index('date')
-            res_path=os.path.join('股票相对涨跌幅',name+'.csv')
+            res_path=os.path.join('股票相对涨跌幅2',name+'.csv')
             result.to_csv(res_path)
         i=i+1     
     return
@@ -72,10 +74,10 @@ def main():
     # name_list=['白酒']
     
     start_date='2019-09-01'
-    end_date='2020-10-01'
+    end_date='2020-11-01'
     
     for name in name_list:
-        mypath=os.path.join('板块指数',name+'.csv')
+        mypath=os.path.join('板块指数2',name+'.csv')
         boss=pd.read_csv(mypath,encoding='utf-8',engine='python')
         boss["date"] = boss.apply(
         lambda x: datetime.datetime.strptime(x['date'], "%Y-%m-%d"), axis=1)
@@ -98,7 +100,7 @@ def main():
                 except:
                     continue
             result=result.set_index('date')
-            res_path=os.path.join('股票相对涨跌幅',name+'.csv')
+            res_path=os.path.join('股票相对涨跌幅2',name+'.csv')
             result.to_csv(res_path)       
     return
 def relative_20():
@@ -124,11 +126,14 @@ def relative_20():
                 result[column]=up_down
         newpath=os.path.join('股票20日相对涨跌幅',name+'.csv')
         result.to_csv(newpath,encoding='utf-8')
-        
+
+def gaussian(sigma, x, u):
+	y = np.exp(-(x - u) ** 2 / (2 * sigma ** 2)) / (  math.sqrt(2 * math.pi))
+	return y
 
 def paint():
     industry='白酒'
-    name='五粮液'
+    name='山西汾酒'
     path=os.path.join('股票20日相对涨跌幅',industry+'.csv')
     df=pd.read_csv(path,engine='python',encoding='utf-8')
     df['date']=df.apply(lambda x:datetime.datetime.strptime(x['date'],'%Y-%m-%d'),axis=1)
@@ -137,11 +142,18 @@ def paint():
     print(y)
     fig=plt.figure()
     fig.canvas.set_window_title(industry+'-'+name)
-    # ax=sns.distplot(y,bins=50,kde_kws={"color": "r", "lw": 1, "label": "KDE",'bw_adjust':.4},)
-    ax = sns.kdeplot(y,
-                 color='r',
-                 cumulative=True,bw_adjust=.4)
-    ax.legend()
+    # ax=plt.histogram(y,bins=25,histtype="stepfilled",normed=True,alpha=0.6)
+
+    sns.set()
+    # 
+    ax=sns.distplot(y,bins=50,kde_kws={"color": "r", "lw": 1, "label": "KDE",'bw_adjust':.4},)
+
+    # ax=sns.distplot(y,bins=50,kde=False,norm_hist=False)
+    # ax = sns.kdeplot(y,
+    #              color='r',
+    #              cumulative=True,bw_adjust=.4)
+    
+    # ax.legend()
     ax.set_xlabel('Change')
     ax.set_ylabel('Probability')
     path=os.path.join('概率分布',industry+'-'+name+'.png')
@@ -236,3 +248,42 @@ if __name__ == '__main__':
     # density()
     # merge_csv()
     # run2()
+    # x = np.linspace(-4, 8, 10000)
+    # plt.plot(x,gaussian(1,x,1),color='#570200',linewidth=.99)
+    # plt.plot(x,gaussian(1,x,2),color='#570200',linewidth=.99)
+    # plt.plot(x,gaussian(1,x,3),color='#570200',linewidth=.99)
+    # x=np.ones(50)
+    # y=np.linspace(0,np.max(gaussian(1,x,1)),50)
+    # print(x)
+    # plt.plot(x, y, color = '#570200', linewidth=.99, linestyle="--")
+    # x=np.ones(50)*2
+    # plt.plot(x, y, color = '#570200', linewidth=.99, linestyle="--")
+    # x=np.ones(50)*3
+    # ax=plt.plot(x, y, color = '#570200', linewidth=.99, linestyle="--")
+    # ax=plt.gca()
+    # x_major_locator=MultipleLocator(1)
+    # ax.xaxis.set_major_locator(x_major_locator)
+    # ax.tick_params(length=0)
+    # plt.plot()
+    # plt.show()
+    # x = np.linspace(-8, 8, 10000)
+
+    # plt.plot(x,gaussian(1,x,0),linewidth=.99,label='h=1')
+    # plt.plot(x,gaussian(0.2,x,0),linewidth=.99,label='h=0.2')
+    # plt.plot(x,gaussian(5,x,0),linewidth=.99,label='h=5')
+
+
+
+
+    
+    # y=gaussian(1,x,1)+gaussian(1,x,2)+gaussian(1,x,3)+gaussian(1,x,7)+gaussian(1,x,8)+gaussian(1,x,9)
+    # y=y/6
+    # plt.plot(x, y, color='#00008B', linewidth=.99)
+
+    # ax=plt.gca()
+    # x_major_locator=MultipleLocator(2)
+    # ax.xaxis.set_major_locator(x_major_locator)
+    # ax.tick_params(length=0)
+    # plt.legend()
+    # plt.plot()
+    # plt.show()

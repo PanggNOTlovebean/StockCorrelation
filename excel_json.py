@@ -58,10 +58,10 @@ def main2():
         for rank in [1,2,3,4,5]:
             for i in range(len(df)):
                 if(df.iloc[i]['rank']==rank):
-                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['score'],'.4f')),'type':'总体得分','industry':name,'rank':str(df.iloc[i]['rank'])})
+                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['score'],'.4f')),'type':'综合得分','industry':name,'rank':str(df.iloc[i]['rank'])})
 
-                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['corr_score'],'.4f')),'type':'相关系数','industry':name,'rank':str(df.iloc[i]['rank']),})
-                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['ret_score'],'.4f')),'type':'相对涨幅','industry':name,'rank':str(df.iloc[i]['rank'])})
+                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['corr_score'],'.4f')),'type':'相关性分值','industry':name,'rank':str(df.iloc[i]['rank']),})
+                    json_list.append({'name':df.iloc[i]['name'],'value':float(format(df.iloc[i]['ret_score'],'.4f')),'type':'涨跌幅分值','industry':name,'rank':str(df.iloc[i]['rank'])})
             json_dict[name]=json_list
         print(json_dict)
             
